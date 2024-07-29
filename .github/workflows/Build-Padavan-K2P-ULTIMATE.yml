@@ -40,8 +40,8 @@ jobs:
         fi
         cp -f configs/templates/$TNAME.config .config
 
-	# modify .config file with sed/awk to change settings
-	# view configs/templates/$TNAME.config for details
+        # modify .config file with sed/awk to change settings
+        # view configs/templates/$TNAME.config for details
         
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
